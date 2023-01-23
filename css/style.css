@@ -4,3 +4,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* header */
+.nav{
+    background-color: rgba(173, 216, 230, 255);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.nav :last-child{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav div{
+    padding: 10px;
+    background-color: rgb(218, 165, 32);
+}
+.nav:last-child{
+    display: flex;
+    justify-content: flex-end;
+}
+.logo,.login{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.link{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.banner{
+    background-color: rgb(0, 0, 139);
+    height: 300px;
+    display: flex;  
+}
+.banner div{
+    background-color: rgb(238, 130, 238);
+    width: 55%;
+    height: 80%;
+    margin: auto;
+}
+
+
+
+
+/* main */
+
+
+/* footer */
