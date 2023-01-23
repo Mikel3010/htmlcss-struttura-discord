@@ -46,10 +46,37 @@
     margin: auto;
 }
 
-
-
-
 /* main */
+.main{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big{
+    background-color: rgb(144, 255, 255);
+    width: 50%;
+    height: 80%;
+}
+.small{
+    background-color: rgb(255, 192, 203);
+    width: 30%;
+    height: 80%;
+}
+main section:nth-child(2n+2){
+    background-color: rgb(211, 211, 211);
+}
+.last-main{
+    display: flex;
+    justify-content: center;
+}
+.big-green{
+    height: 480px;
+    width: 80%;
+    background-color: rgb(34, 139, 34);
+    margin: 30px;
+}
+
 
 
 /* footer */
