@@ -1,4 +1,4 @@
-/* rest */
+/* reset */
 *{
     margin: 0;
     padding: 0;
@@ -77,6 +77,52 @@ main section:nth-child(2n+2){
     margin: 30px;
 }
 
-
-
 /* footer */
+footer section{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.double{
+    width: 30%;
+    height: 400px;
+    background-color: rgb(240, 128, 128);
+
+}
+.main-single{
+    height: 400px;
+    width: 50%;
+    background-color: rgb(32, 178, 170);
+    display: flex;
+}
+.single{
+    width: calc(100% /4);
+    border:2px white dashed;
+}
+.footer-lb{
+    background-color: rgb(127, 255, 212);
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-style: none;
+}
+.footer-lb div{
+    background-color: rgb(255, 182, 193);
+    padding: 5px;
+    border:2px black dashed;
+}
+footer section:last-child{
+    padding-top: 30px;
+}
+footer section:first-child{
+    border-bottom: 3px solid grey;
+    padding-bottom: 40px;
+    padding-top: 15px;
+}
+
+section>div{
+    border:2px black dashed;  
+}
